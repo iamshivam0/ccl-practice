@@ -1,0 +1,47 @@
+body {
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 { 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+
+.container {
+    text-align: center ;
+}
+
+label{
+    font-size: 20px;
+    margin: 10px;
+}
+input {
+    margin: 10px;
+    border : 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 11px;
+
+}
+
+button {
+    border: 2px solid blue;
+    border-radius: 5px;
+    background: blue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+#weatherResult {
+    margin: 20px auto; 
+    padding: 20px;
+    max-width: 400px; 
+    width: 100%; 
+    border: 2px solid black;
+    border-radius: 5px;
+}
